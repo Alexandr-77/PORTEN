@@ -1,0 +1,660 @@
+*{
+  margin: 0; 
+  padding: 0;
+  box-sizing: border-box; 
+}
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+body {
+    font-family: 'PT Sans', sans-serif;
+}
+/* ////// */
+
+
+.container {
+    max-width: 1170px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+.header {
+    background: #000;
+}
+.header-obolo {
+    display: flex;
+    justify-content: space-between;
+    padding: 16px 0;
+}
+.header-top {
+    display: flex;
+}
+.header-dlock {
+    display: flex;
+    padding: 0 20px;
+    border-right: 1px solid #969696;
+}
+.header-dlock img {
+    margin-right: 15px;
+}
+.header-dlock h2 {
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    color: #969696;
+}
+.br-n {
+    border: none;
+}
+
+.header-dlock2 {
+    display: flex;
+}
+.header-dlock2 a {
+    display: flex;
+}
+.header-dlock2 img {
+    margin-right: 15px;
+}
+.header-dlock2 h2 {
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    color: #969696;
+}
+
+/* ======== navi ======== */
+.navi {
+    background: #0F0F0F;
+}
+.navi-ol {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navi-nav {
+    display: flex;
+    align-items: center;
+    
+}
+.navi-nav-ul {
+    display: flex;
+    margin-right: 15px;
+}
+.navi-nav-ul li a {
+    display: block;
+    padding: 30px 20px;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+/* .navi-nav a {
+    display: block;
+} */
+.navi-nav img {
+    margin-left: 45px;
+}
+
+/* ======== navi / ======== */
+
+/* ======== fon ======== */
+.fon {
+    background: url(../img/fon/fone-1.jpg) 50% 0 / cover no-repeat ;
+    /* height: 100vh;   */
+    height: 800px;  
+}
+.fon-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 800px;
+}
+.fon-block {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 320px;
+    height: 320px;
+    border: 4px solid #FFFFFF;
+}
+.fon-block h2{
+    font-family: 'Roboto Condensed', sans-serif;
+
+    font-weight: 400;
+    font-size: 64px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.fon-block hr {
+    margin: 0 auto;
+    width: 255px;
+    height: 2px;
+    background: #FFFFFF;
+    border: none;
+    /* border: 2px solid #FFFFFF; */
+}
+.fon-block h3 {
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 28px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-top: 7px;
+}
+.fon p {
+    margin-top: 80px;
+    max-width: 730px;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 150%;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+/* ======== fon / ======== */
+
+/* ======== season ======== */
+.season {
+    background: #000000;
+}
+.season-block {
+    display: flex;
+}
+.season-card {
+    width: 50%;
+}
+.to-h2 {
+    font-family: 'Playfair Display',sans-serif;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 48px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding: 93px 0 40px;
+}
+.to-h2-hr{
+    width: 120px;
+    height: 1px;
+    color: #fff;
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+.season-card-flex{
+    display: flex;
+    justify-content: center;
+}
+.season-card__item {
+    margin: 0 25px;
+    max-width: 260px;
+}
+.season-card__item-img img {
+    padding: 55px 22px;
+    background: #191B1C;
+    max-width: 100%;
+}
+.season-card__item h3 {
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+    color: #FFFFFF;
+    margin: 25px 0 10px;
+}
+.season-card__item h4 {
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 21px;
+    color: #D0D0D0;
+    margin-bottom: 50px;
+}
+/* ======== */
+.season-img {
+    background: url(../img/season/1.jpg) 0 0 / cover no-repeat;
+    height: 730px;
+    padding-top: 430px;
+    width: 50%;
+}
+.season-img a {
+    display: block;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 23px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 12px 28px;
+    border: 1px solid #FFFFFF;
+    width: 140px;
+    margin: 0 auto;
+    color: #fff;
+}
+/* ======== season / ======== */
+
+/* ======== collection ======== */
+.collection {
+    display: flex;
+    background: #000;
+}
+.collection__item {
+   width: 50%;
+}
+.collection__item img {
+   max-width: 100%;
+   height: 600px;
+   object-fit: cover;
+}
+.collection__item p {
+    display: block;
+    font-family: 'PT Sans';
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 150%;
+    text-align: center;   
+    color: #FFFFFF;
+    max-width: 471px;
+    margin: 0 auto 60px;
+    padding: 0 10px;
+}
+
+.collection__item a {
+    display: block;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 23px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin: 0 auto;
+    border: 1px solid #FFFFFF;
+    max-width: 315px;
+    padding: 12px 25px;
+}
+/* ======== collection / ======== */
+
+/* ======== nev ======== */
+.nev {
+    background: #000000;
+}
+.nev-block__item-img img {
+    background: #191B1C;
+    padding: 55px 22px;
+}
+.nev-block {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+.nev-block__item {
+    margin: 0 12px;
+    text-align: center;
+}
+.nev-block__item h3 {
+   font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+    color: #FFFFFF; 
+    margin: 25px 0 10px;
+}
+.nev-block__item h4 {
+   font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 21px;
+    color: #D0D0D0;
+    padding-bottom: 40px;
+}
+/* ======== nev / ======== */
+
+/* ======== brand ======== */
+.brand {
+   background: #0F0F0F; 
+}
+.brand-block {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-bottom: 60px;
+}
+.brand-block-item {
+    margin: 0 15px 10px;
+}
+.brand-block-item img {
+    max-width: 100%;
+}
+
+/* ======== brand / ======== */
+
+/* ======== footer ======== */
+.footer {
+    background: url(../img/footer/footer-1.png) 0 0 / cover no-repeat;
+    height: 400px;
+    padding: 80px 0 0px;
+}
+.footer-block {
+    display: flex;
+}
+.footer-block__item {
+    width: 33.3333%;
+    margin: 0 15px;
+}
+.footer-block__item h2 {
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 32px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding-bottom: 40px;
+}
+.footer-block__item p {
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 150%;
+    color: #FFFFFF;
+}
+.footer-block__item-grup {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 0 0 -10px;
+}
+.footer-block__item-grup a {
+    display: block;
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 150%;
+    color: #D0D0D0;
+    padding: 10px 20px;
+    background: #0F0F0F;
+    margin: 0 10px 20px;
+
+}
+.footer-form {
+    display: flex;
+    margin-top: 37px;
+}
+.footer-form input {
+    width: 210;
+    height: 42px;
+    background: rgba(255, 255, 255, 0.4);
+    border: none;
+    padding: 0 10px;
+}
+.footer-form input::placeholder {
+    color: #fff;
+}
+.btn-footer {
+    display: block;
+    width: 140;
+    height: 42px;
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 150%;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    background: #0F0F0F;
+    border: none;
+    padding: 0 10px;
+}
+
+/* ======== footer / ======== */
+
+
+
+/* ====== Медиа 1140px ====== */
+@media (max-width: 1140px) {
+    h1 {
+        color: rgb(255, 0, 106);
+    }
+    .season-block {
+        display: block;
+    }
+    .season-22 {
+        width: 100%;
+    }
+    .nev-block__item {
+        margin: 0 12px 10px;
+        text-align: center;
+    }
+    .to-h2 {
+        padding: 93px 0 20px;
+    }
+    .footer {
+        background: url(../img/footer/footer-1.png) 42% 0 / cover no-repeat;
+        min-height: 620px;
+        padding: 10px 0 0px;
+    }
+    .footer-block {
+        display: block;
+    }
+    .footer-block__item {
+        width: 52%;
+        margin: 0 15px;
+    }
+    .footer-block__item h2 {
+        padding: 27px 0 15px;
+    }
+    .footer-block__item-grup {
+        margin: 5px 0 -20px -10px;
+    }
+}
+/* ====== Медиа 1140px /====== */
+
+/* ====== Медиа 768px ====== */
+@media (max-width: 768px) {
+    .navi-ol {
+        display: block;
+    }
+    .navi-logo {
+        padding: 15px 0 0 15px;
+    }
+    .navi-nav-ul li a {
+        padding: 20px 15px;
+    }
+    .collection {
+        display: block;
+    }
+    .collection__item {
+        width: 100%;
+     }
+     .collection__item-2 {
+         padding-bottom: 50px;
+     }
+     .footer-block__item {
+        width: 100%;
+        margin: 0;
+        padding: 0 15px;
+    }
+    
+}
+/* ====== Медиа 768px /====== */
+
+/* ====== Медиа 650px ====== */
+@media (max-width: 650px) {
+    .header-obolo {
+        display: block;
+    }
+    .header-dlock2 {
+        padding: 15px 20px 0;
+    }
+    .navi-nav {
+        display: block;
+    }
+    .navi-nav img {
+        margin: 0 45px 0 0;
+    }
+    .navi-nav-img {
+        padding: 0 0 0 15px;
+    }
+    .fon p {
+        font-size: 14px;
+    }
+    .to-h2 {
+        font-size: 36px;
+        line-height: 48px;
+        padding: 50px 0 20px;
+    }
+    .season-card__item-img img {
+        padding: 30px 0px;
+    }
+    .season-card__item {
+        margin: 0 15px;
+        max-width: 260px;
+    }
+    .season-card__item h3 {
+        font-size: 15px;
+        line-height: 15px;
+        margin: 20px 0 5px;
+    }
+}
+/* ====== Медиа 650px /====== */
+
+/* ====== Медиа 00px ====== */
+@media (max-width: 00px) {
+
+}
+/* ====== Медиа 00px /====== */
+
+/* ====== Медиа 480px ====== */
+@media (max-width: 480px) {
+    /* .header-top {
+        display: block;
+    }
+    .header-dlock {
+        display: flex;
+        padding: 0 20px 10px;
+        border: none;
+    }
+    .header-dlock img {
+        margin-right: 9px;
+    } */
+    .header-top {
+        display: none;
+    }
+    .header-dlock2 {
+        padding: 0px 20px 0;
+    }
+    .header-dlock2 {
+        display: flex;
+        justify-content: flex-end;
+    }
+    .navi-nav-ul {
+        display: block;
+        margin: 0;
+    }
+    .navi-nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+    .navi-nav img {
+        margin: 0 45px 0 0;
+    }
+    .navi-nav-img {
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+    }
+    .navi-nav img {
+        margin: 0 15px 45px 0;
+    }
+    .fon p {
+        font-size: 13px;
+    }
+    .season-card-flex {
+        display: block;
+    }
+    .season-card__item {
+        margin: 0 auto;
+        max-width: 100%;
+        text-align: center;
+    }
+    .season-card__item-img img {
+        display: block;
+        margin: 0 auto;
+    }
+    .to-h2 {
+        font-size: 28px;
+        line-height: 38px;
+        padding: 50px 0 15px;
+    }
+    .footer {
+        background: url(../img/footer/footer-1.png) 47% 0 / cover no-repeat;
+    }
+    .footer-block__item {
+        padding: 0;
+    }
+}
+/* ====== Медиа 480px /====== */
+
+/* ====== Медиа 400px ====== */
+@media (max-width: 400px) {
+    .header-dlock {
+        padding: 0 5px 10px;
+    }
+    .header-dlock2 {
+        padding: 10px 2px 0;
+    }
+    .navi-logo {
+        padding: 20px 0 0 5px;
+    }
+    .navi-nav-ul li a {
+        padding: 15px 5px;
+    }
+    .season-img {
+        background: url(../img/season/1.jpg) 9% 0 / cover no-repeat;
+        height: 730px;
+        padding-top: 430px;
+    }
+    .fon-block {
+        width: 300px;
+        height: 300px;
+        border: 2px solid #FFFFFF;
+    }
+    .to-h2 {
+        font-size: 23px;
+        line-height: 30px;
+        padding: 40px 0 10px;
+    }
+    .collection__item a {
+        font-size: 16px;
+        max-width: 270px;
+        padding: 13px 0px;
+    }
+    .footer {
+        min-height: 720px;
+    }
+    .footer-form input {
+        width: 175px;
+    }
+}
+/* ====== Медиа 400px /====== */
